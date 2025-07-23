@@ -24,3 +24,23 @@
   npm run  dev
 
 ```
+ step-5 add the tailwindcss library
+
+ ```
+ I- npm install tailwindcss @tailwindcss/vite
+ II- vite.config.ts
+
+import { defineConfig } from 'vite'
+import tailwindcss from '@tailwindcss/vite'
+export default defineConfig({
+  plugins: [
+    tailwindcss(),
+  ],
+})
+
+III- import the tailwindcss
+
+   @import "tailwindcss";
+
+ ```
+   
